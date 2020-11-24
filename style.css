@@ -1,0 +1,55 @@
+
+th, td{
+	padding: 15px;
+}
+
+tr{
+	background-color: #2a9d8f;
+	color: white;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px 0;
+}
+
+tr:hover{
+	background-color: #20d3d3;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.head{
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+table{
+	border-collapse: collapse;
+	width: 800px;
+	height: 300px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -150px;
+}
+
+
+caption{
+	background-color: #264653;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+	margin-bottom: 2px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.bottom{
+border-radius: 0 0 0 20px;
+}
+
+.botom{
+	border-radius: 0 0 20px 0;
+	}
